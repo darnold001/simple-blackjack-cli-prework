@@ -30,11 +30,10 @@ end
 def initial_round
   #CardSum = rand(1..11) + rand(1..11)
   display_card_total(CardSum)
-
   # code #initial_round here
 end
 
-def hit?(card_total)
+def hit?
   prompt_user
 if get_user_input == "s"
 elsif get_user_input == "h"
