@@ -4,7 +4,7 @@ def welcome
 end
 
 def deal_card
-  card = rand(1...11)
+  card = rand(1..11)
   # code #deal_card here
 end
 
@@ -49,7 +49,7 @@ return card_total
 end
 
 def invalid_command
-  puts "Please enter either h or s"# code invalid_command here
+  puts "Please enter a valid command"# code invalid_command here
 end
 
 #####################################################
