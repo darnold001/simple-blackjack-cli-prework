@@ -33,9 +33,9 @@ end
 
 def hit?(card_total)
   prompt_user
-  User_Choice = get_user_input
-if User_Choice == "s"
-elsif User_Choice == "h"
+  UChoice = get_user_input
+if UChoice == "s"
+elsif UChoice == "h"
     card_total += deal_card
     if card_total >21
     end_game (card_total)
