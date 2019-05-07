@@ -43,6 +43,7 @@ elsif Action == "h"
 else
   invalid_command
   prompt_user
+  get_user_input
 end
 return card_total
   # code hit? here
