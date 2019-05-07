@@ -27,8 +27,8 @@ def end_game(total)
   puts "Sorry, you hit #{total}. Thanks for playing!"
 end
 
-def initial_round
-  #CardSum = rand(1..11) + rand(1..11)
+def initial_round(CardSum)
+  CardSum = rand(1..11) + rand(1..11)
   display_card_total(CardSum)
 
   # code #initial_round here
