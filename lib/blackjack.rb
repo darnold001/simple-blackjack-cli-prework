@@ -4,7 +4,7 @@ def welcome
 end
 
 def deal_card
-  card = rand(1..11)
+  rand(1..11)
   # code #deal_card here
 end
 
@@ -38,6 +38,7 @@ end
 def hit?(card_total)
   prompt_user
 if get_user_input == "s"
+  puts display_card_total
 elsif get_user_input == "h"
     card_total += deal_card
     if card_total >21
